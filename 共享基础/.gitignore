@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# uv 沙箱缓存（本机一般不会出现）
+.uv-cache/
+
+# 数据产物（体积大，不进 Git，最终数据集用网盘/群共享）
+data/*.csv
+data/*.json
+data/debug/
+
+# 数据流水线产物（原始/中间/最终数据, 体积大不进 Git）
+data/raw/
+data/processed/
+data/augmentation/
+
+# 密钥与环境配置（绝不提交）
+.env
+.env.*
+
+# 清理时移出的旧文件备份(保留可还原, 但体积大不进 Git)
+legacy_backup/
+
+# 模型产物(训练输出, 体积大不进 Git)
+data/out/
+*.joblib
+*.pt
+*.bin
+*.onnx
+*.safetensors
+backups/
