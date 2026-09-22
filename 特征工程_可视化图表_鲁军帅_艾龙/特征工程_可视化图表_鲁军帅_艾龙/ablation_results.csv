@@ -1,4 +1,0 @@
-﻿config,train_size,best_model,val_macro_f1,test_acc,test_macro_f1,test_weighted_f1
-R_纯真实,6893,线性SVM(LinearSVC),0.785,0.797,0.7587,0.7951
-A_纯增强,23107,线性SVM(LinearSVC),0.7641,0.7811,0.7434,0.7785
-M_真实加增强,30000,线性SVM(LinearSVC),0.7772,0.797,0.7577,0.7946
